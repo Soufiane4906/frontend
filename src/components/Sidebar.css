@@ -8,32 +8,21 @@
 
 .sidebar h2 {
   text-align: center;
-  color: #000000; /* Rose fuchsia */
+  color: #ff1493; /* Rose fuchsia foncé */
 }
-#root > div > div > div{
-  
-    width: 242px;
-    background-color: #ffa4be78;
 
-}
 .sidebar ul {
   list-style-type: none;
   padding: 0;
 }
-#root > div > main > div{
-  padding: -24px;
-    background-color: rgb(25 118 210);
-}
+
 .sidebar ul li {
   margin: 10px 0;
 }
-#root > div > div > div > div:nth-child(2) > ul > a> div.MuiListItemText-root.css-tlelie-MuiListItemText-root{    color: #3872e0;}
- svg {
-  color: #3872e0 !important;
- }
+
 .sidebar ul li a {
   text-decoration: none;
-  color: #333;
+  color: #ff1493; /* Rose fuchsia foncé */
 }
 
 .sidebar ul li a:hover {
@@ -42,13 +31,19 @@
 
 /* Style des cadres */
 .sidebar ul li {
-  border: 1px solid #7369ff; /* Rose fuchsia */
+  border: 1px solid #ff1493; /* Rose fuchsia foncé */
   border-radius: 5px;
   padding: 10px;
   transition: all 0.3s ease;
 }
 
 .sidebar ul li:hover {
-  background-color: #ff69b4; /* Rose fuchsia */
+  background-color: #ff1493; /* Rose fuchsia foncé */
   color: white;
+}
+
+.card:hover {
+  background-color: #ff69b4;
+  color: white;
+  transition: all 0.3s ease;
 }

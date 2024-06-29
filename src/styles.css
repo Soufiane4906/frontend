@@ -1,0 +1,65 @@
+body {
+    background-color: #ffb6c1; /* Rose bébé */
+    background-image: linear-gradient(45deg, #ffb6c1 25%, #ff69b4 50%, #ffb6c1 75%);
+    background-size: 400% 400%;
+    animation: gradientBackground 5s ease infinite;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden; /* Empêche le débordement horizontal */
+}
+
+#root {
+    display: flex;
+    flex: 1;
+    min-height: 100vh; /* S'assure que le contenu prend toute la hauteur de la fenêtre */
+}
+
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Ajout d'un flou pour un effet brillant */
+    margin: 20px;
+    width: 100%; /* S'assurer que le conteneur prend toute la largeur disponible */
+    max-width: 900px; /* Limiter la largeur maximale pour la lisibilité */
+    box-sizing: border-box; /* Inclure le padding et les bordures dans la largeur totale */
+}
+
+/* Ajouter des particules brillantes */
+@keyframes sparkles {
+    0% { opacity: 0; transform: translateY(-50px) scale(0); }
+    50% { opacity: 1; }
+    100% { opacity: 0; transform: translateY(50px) scale(0); }
+}
+
+.sparkle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px white;
+    animation: sparkles 2s infinite;
+    pointer-events: none;
+}
+
+.sparkle:nth-child(1) { left: 20%; animation-delay: 0s; }
+.sparkle:nth-child(2) { left: 40%; animation-delay: 0.5s; }
+.sparkle:nth-child(3) { left: 60%; animation-delay: 1s; }
+.sparkle:nth-child(4) { left: 80%; animation-delay: 1.5s; }

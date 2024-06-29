@@ -1,0 +1,9 @@
+.card:hover {
+    background-color: #ff69b4;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.card {
+    transition: all 0.3s ease;
+}
