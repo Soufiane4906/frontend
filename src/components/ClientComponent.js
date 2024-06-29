@@ -35,7 +35,7 @@ const ClientComponent = () => {
     };
 
     return (
-        <Grid container spacing={2} justifyContent="center" style={{ padding: 20, backgroundColor: '#FFB6C1' }}>
+        <Grid container spacing={2} justifyContent="center" style={{ padding: 20, backgroundColor: 'rgb(239 239 239)' }}>
             <Grid item xs={12}>
                 <Typography variant="h4" align="center" gutterBottom>
                     Gestion des Clients
@@ -58,7 +58,7 @@ const ClientComponent = () => {
                 </Paper>
             </Grid>
             <Grid item xs={12}>
-                <Paper style={{ padding: 20, backgroundColor: '#FFB6C1', boxShadow: '0px 4px 6px rgba(0,0,0,0.1)', borderRadius: 10 }}>
+                <Paper style={{ padding: 20, backgroundColor: 'rgb(239 239 239)', boxShadow: '0px 4px 6px rgba(0,0,0,0.1)', borderRadius: 10 }}>
                     <Typography variant="h6" gutterBottom>
                         Liste des Clients
                     </Typography>

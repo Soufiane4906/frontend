@@ -12,7 +12,7 @@ const theme = createTheme({
             main: '#ff69b4', // rose fuchsia
         },
         secondary: {
-            main: '#ffb6c1', // rose bébé
+            main: 'rgb(239 239 239)', // rose bébé
         },
     },
 });

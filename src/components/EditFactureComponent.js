@@ -46,7 +46,7 @@ const EditFactureComponent = () => {
     };
 
     return (
-        <Grid container spacing={2} justifyContent="center" style={{ padding: 20, backgroundColor: '#FFB6C1' }}>
+        <Grid container spacing={2} justifyContent="center" style={{ padding: 20, backgroundColor: 'rgb(239 239 239)' }}>
             <Grid item xs={12} md={6}>
                 <Paper style={{ padding: 20, backgroundColor: '#FF69B4' }}>
                     <Typography variant="h6" gutterBottom>

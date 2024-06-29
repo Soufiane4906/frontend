@@ -39,17 +39,17 @@ const HomeComponent = () => {
                 <Typography variant="h4" gutterBottom style={{ color: 'rgb(25 118 210)' }}>
                     Bienvenue sur le site de gestion des ventes et facturation
                 </Typography>
-                <Typography variant="body1" paragraph style={{ color: '#ff69b4', fontSize: '14px' }}>
+                <Typography variant="body1" paragraph style={{ color: '#fff', fontSize: '14px' }}>
                     Ce projet vous permet de gérer efficacement vos clients, ventes, factures, lignes de vente et produits.
                 </Typography>
-                <Typography variant="body1" paragraph style={{ color: '#ff69b4', fontSize: '14px' }}>
+                <Typography variant="body1" paragraph style={{ color: '#fff', fontSize: '14px' }}>
                     Utilisez le menu de navigation pour accéder aux différentes sections de l'application et commencer à gérer vos données.
                 </Typography>
             </Box>
 
             <Grid container spacing={2} mt={2}>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card className="card" style={{ backgroundColor: '#ffb6c1' }}>
+                    <Card className="card" style={{ backgroundColor: 'rgb(239 239 239)' }}>
                         <CardContent style={{ textAlign: 'center', padding: '10px' }}>
                             <PeopleIcon style={{ fontSize: 35, color: 'rgb(25 118 210)' }} />
                             <Typography variant="h6" component="div" style={{ color: 'rgb(25 118 210)', marginTop: '5px' }}>
@@ -62,7 +62,7 @@ const HomeComponent = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card className="card" style={{ backgroundColor: '#ffb6c1' }}>
+                    <Card className="card" style={{ backgroundColor: 'rgb(239 239 239)' }}>
                         <CardContent style={{ textAlign: 'center', padding: '10px' }}>
                             <ReceiptIcon style={{ fontSize: 35, color: 'rgb(25 118 210)' }} />
                             <Typography variant="h6" component="div" style={{ color: 'rgb(25 118 210)', marginTop: '5px' }}>
@@ -75,7 +75,7 @@ const HomeComponent = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card className="card" style={{ backgroundColor: '#ffb6c1' }}>
+                    <Card className="card" style={{ backgroundColor: 'rgb(239 239 239)' }}>
                         <CardContent style={{ textAlign: 'center', padding: '10px' }}>
                             <ProductIcon style={{ fontSize: 35, color: 'rgb(25 118 210)' }} />
                             <Typography variant="h6" component="div" style={{ color: 'rgb(25 118 210)', marginTop: '5px' }}>
@@ -88,7 +88,7 @@ const HomeComponent = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card className="card" style={{ backgroundColor: '#ffb6c1' }}>
+                    <Card className="card" style={{ backgroundColor: 'rgb(239 239 239)' }}>
                         <CardContent style={{ textAlign: 'center', padding: '10px' }}>
                             <SalesIcon style={{ fontSize: 35, color: 'rgb(25 118 210)' }} />
                             <Typography variant="h6" component="div" style={{ color: 'rgb(25 118 210)', marginTop: '5px' }}>
@@ -101,7 +101,7 @@ const HomeComponent = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card className="card" style={{ backgroundColor: '#ffb6c1' }}>
+                    <Card className="card" style={{ backgroundColor: 'rgb(239 239 239)' }}>
                         <CardContent style={{ textAlign: 'center', padding: '10px' }}>
                             <LineSalesIcon style={{ fontSize: 35, color: 'rgb(25 118 210)' }} />
                             <Typography variant="h6" component="div" style={{ color: 'rgb(25 118 210)', marginTop: '5px' }}>
@@ -114,7 +114,7 @@ const HomeComponent = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12} sm={6} md={4}>
-                    <Card className="card" style={{ backgroundColor: '#ffb6c1' }}>
+                    <Card className="card" style={{ backgroundColor: 'rgb(239 239 239)' }}>
                         <CardContent style={{ textAlign: 'center', padding: '10px' }}>
                             <EventIcon style={{ fontSize: 35, color: 'rgb(25 118 210)' }} />
                             <Typography variant="h6" component="div" style={{ color: 'rgb(25 118 210)', marginTop: '5px' }}>
@@ -130,7 +130,7 @@ const HomeComponent = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12}>
-                    <Card className="card" style={{ backgroundColor: '#ffb6c1' }}>
+                    <Card className="card" style={{ backgroundColor: 'rgb(239 239 239)' }}>
                         <CardContent>
                             <Typography variant="h6" component="div" style={{ color: 'rgb(25 118 210)', textAlign: 'center', marginBottom: '10px' }}>
                                 Graphique des Ventes
