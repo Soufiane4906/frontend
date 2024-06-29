@@ -31,7 +31,7 @@ const AddClientComponent = () => {
     };
 
     return (
-        <Grid container spacing={2} justifyContent="center" style={{ padding: 20, backgroundColor: '#FFB6C1' }}>
+        <Grid container spacing={2} justifyContent="center" style={{ padding: 20, backgroundColor: '#f0ebff' }}>
             <Grid item xs={12} md={6}>
                 <Paper style={{ padding: 20, backgroundColor: '#FF69B4' }}>
                     <Typography variant="h6" gutterBottom>

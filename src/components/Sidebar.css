@@ -2,13 +2,14 @@
 .sidebar {
   width: 200px;
   height: 100vh;
-  background-color: #ffb6c1; /* Rose bébé */
+  background-color: rgb(133 183 255 / 66%);
+   /* Rose bébé */
   padding: 20px;
 }
 
 .sidebar h2 {
   text-align: center;
-  color: #ff1493; /* Rose fuchsia foncé */
+  color: #2b14ff; /* Rose fuchsia foncé */
 }
 
 .sidebar ul {
@@ -22,7 +23,7 @@
 
 .sidebar ul li a {
   text-decoration: none;
-  color: #ff1493; /* Rose fuchsia foncé */
+  color: #3f14ff; /* Rose fuchsia foncé */
 }
 
 .sidebar ul li a:hover {
@@ -31,19 +32,23 @@
 
 /* Style des cadres */
 .sidebar ul li {
-  border: 1px solid #ff1493; /* Rose fuchsia foncé */
+  border: 1px solid #3f14ff; /* Rose fuchsia foncé */
   border-radius: 5px;
   padding: 10px;
   transition: all 0.3s ease;
 }
 
 .sidebar ul li:hover {
-  background-color: #ff1493; /* Rose fuchsia foncé */
+  background-color: #3f14ff; /* Rose fuchsia foncé */
   color: white;
 }
 
 .card:hover {
-  background-color: #ff69b4;
+  background-color: rgb(50, 45, 82);
   color: white;
   transition: all 0.3s ease;
+}
+
+.MuiPaper-root{
+  background-color: rgb(255, 182, 193) !important;
 }

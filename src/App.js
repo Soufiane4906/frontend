@@ -49,34 +49,34 @@ const App = () => {
                 <Drawer
                     variant="permanent"
                     className="sidebar"
-                    PaperProps={{ style: { width: drawerWidth, backgroundColor: '#ffb6c1' } }}
+                    PaperProps={{ style: { width: drawerWidth, backgroundColor: 'rgb(239 239 239)' } }}
                 >
                     <Toolbar />
                     <div style={{ overflow: 'auto' }}>
                         <List>
                             <ListItem button component="a" href="/home">
-                                <ListItemIcon><HomeIcon style={{ color: '#ff1493' }} /></ListItemIcon>
-                                <ListItemText primary="Home" style={{ color: '#ff1493' }} />
+                                <ListItemIcon><HomeIcon style={{ color: 'rgb(0 128 255);' }} /></ListItemIcon>
+                                <ListItemText primary="Home" style={{ color: 'rgb(0 128 255);' }} />
                             </ListItem>
                             <ListItem button component="a" href="/clients">
-                                <ListItemIcon><PeopleIcon style={{ color: '#ff1493' }} /></ListItemIcon>
-                                <ListItemText primary="Clients" style={{ color: '#ff1493' }} />
+                                <ListItemIcon><PeopleIcon style={{ color: 'rgb(0 128 255);' }} /></ListItemIcon>
+                                <ListItemText primary="Clients" style={{ color: 'rgb(0 128 255);' }} />
                             </ListItem>
                             <ListItem button component="a" href="/produits">
-                                <ListItemIcon><ProductIcon style={{ color: '#ff1493' }} /></ListItemIcon>
-                                <ListItemText primary="Produits" style={{ color: '#ff1493' }} />
+                                <ListItemIcon><ProductIcon style={{ color: 'rgb(0 128 255);' }} /></ListItemIcon>
+                                <ListItemText primary="Produits" style={{ color: 'rgb(0 128 255);' }} />
                             </ListItem>
                             <ListItem button component="a" href="/ventes">
-                                <ListItemIcon><SalesIcon style={{ color: '#ff1493' }} /></ListItemIcon>
-                                <ListItemText primary="Ventes" style={{ color: '#ff1493' }} />
+                                <ListItemIcon><SalesIcon style={{ color: 'rgb(0 128 255);' }} /></ListItemIcon>
+                                <ListItemText primary="Ventes" style={{ color: 'rgb(0 128 255);' }} />
                             </ListItem>
                             <ListItem button component="a" href="/lignes-de-vente">
-                                <ListItemIcon><LineSalesIcon style={{ color: '#ff1493' }} /></ListItemIcon>
-                                <ListItemText primary="Lignes de Vente" style={{ color: '#ff1493' }} />
+                                <ListItemIcon><LineSalesIcon style={{ color: 'rgb(0 128 255);' }} /></ListItemIcon>
+                                <ListItemText primary="Lignes de Vente" style={{ color: 'rgb(0 128 255);' }} />
                             </ListItem>
                             <ListItem button component="a" href="/factures">
-                                <ListItemIcon><ReceiptIcon style={{ color: '#ff1493' }} /></ListItemIcon>
-                                <ListItemText primary="Factures" style={{ color: '#ff1493' }} />
+                                <ListItemIcon><ReceiptIcon style={{ color: 'rgb(0 128 255);' }} /></ListItemIcon>
+                                <ListItemText primary="Factures" style={{ color: 'rgb(0 128 255);' }} />
                             </ListItem>
                         </List>
                     </div>

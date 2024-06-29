@@ -49,6 +49,11 @@
 }
 
 .sidebar ul li:hover {
-  background-color: #ff69b4; /* Rose fuchsia */
+  background-color: #6980ff; /* Rose fuchsia */
   color: white;
+}
+
+
+#root > div > div > div{
+  background-color: rgb(255, 182, 193) !important;
 }
